@@ -1,0 +1,6 @@
+//Exercício 4: Notas escolares
+//Faça um programa que receba 4 notas de um aluno, 
+//Calcule e imprima a média aritmética das notas e a mensagem de APROVADO para média superior ou igual a 7,0 
+//RECUPERAÇÃO para notas entre 5.0 e 7,0 
+//Ou a mensagem de REPROVADO para média inferior a 5,0.
+
