@@ -7,3 +7,21 @@
 // Valor total da compra de R$ 100,01 a R$ 200,00: desconto de 10%.
 // Valor total da compra acima de R$ 200,00: desconto de 20%.
 // Exiba o valor final da compra com o desconto aplicado.
+
+let valorTotal = parseFloat(prompt("informe o valor total da compra: "))
+
+let desconto ;
+if(valorTotal<=100){
+    desconto = 0
+    console.log ("O valor de desconto foi: " + desconto);
+    }else if (valorTotal<=200){
+        desconto = 0.1 ;
+        console.log ("O valor de desconto foi " + (desconto*100) + "%" )
+    }else{
+        desconto = 0.2 ;
+        console.log ("O valor de desconto foi " + (desconto*100) + "%" )
+    }
+
+    let valorFinal = valorTotal - (valorTotal*desconto);
+        
+        console.log("O valor final da compra com o desconto R$" + valorFinal.toFixed(2));
