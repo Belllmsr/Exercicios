@@ -72,7 +72,7 @@
 
  //Array
 
- let frutas= ["Banana","Laranja","Maça","Pitaya","Melacia"]
+ //let frutas= ["Banana","Laranja","Maça","Pitaya","Melacia"]
  console.log(frutas[3])
 
  //forEache=>percorre uma lista
@@ -82,10 +82,10 @@
 
 //Percorrendo uma lista com for
 //.Length=> quantidade de elementos dentro de um array
- for(let indice = 0; indice <frutas.length; indice++){
-    console.log(frutas[indice]);
-    if (frutas[indice]=="Pitaya"){
-console.log("Eu gosto de" + frutas[indice]);
+// for(let indice = 0; indice <frutas.length; indice++){
+//     console.log(frutas[indice]);
+//     if (frutas[indice]=="Pitaya"){
+// console.log("Eu gosto de" + frutas[indice]);
 
-    }
- }
+//     }
+//  }
